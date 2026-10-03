@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="31.340929"
+   height="40.000008"
+   version="1.1"
+   viewBox="0 0 8.2921242 10.583127"
+   id="svg7"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <style
+       id="current-color-scheme"
+       type="text/css">.ColorScheme-Text {color:#d8dee9} .ColorScheme-Highlight {color:#3b4252}</style>
+  </defs>
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="path102"
+     style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.343789;stroke-dasharray:none;stroke-dashoffset:2.2;stroke-opacity:0.3"
+     d="m 2.6223051,3.1565407e-5 c -2.49788289,0 -2.41198789,-0.0081699954 -2.55760729,0.238369904593 -0.058849,0.099635 -0.0644629992,0.5458211 -0.0644629992,5.03127733 0,5.4350922 -0.0174470008,5.0739482 0.24844119923,5.2360742 0.1230394,0.07498 0.2270946,0.07708 3.88979179,0.07724 4.1003133,1.59e-4 3.8882613,0.01169 4.0717563,-0.221583 0.08218,-0.104487 0.0819,-0.116612 0.0819,-3.5352568 V 3.3962993 H 6.8014901 C 5.1301604,3.3962306 5.1015502,3.3915832 4.9657063,3.1196558 4.9036356,2.9954112 4.8966056,2.8307532 4.8965409,1.4906848 V 3.1565407e-5 Z M 5.3706079,0.06046457 V 1.3355742 c 0,1.3918208 0.00712,1.4452765 0.226955,1.5645106 0.089,0.048286 0.3304622,0.059123 1.3664262,0.060433 l 1.258324,0.00132 -0.672806,-0.7010017 C 7.1792241,1.8753295 6.5374281,1.2222256 6.1233181,0.80979457 Z M 1.8561642,5.0944278 h 2.2896927 2.2903642 v 0.296114 0.296116 H 4.1458569 1.8561639 v -0.296116 z m 0,1.105228 h 2.2896927 2.2903642 v 0.31626 0.3155904 H 4.1458569 1.8561639 V 6.5159148 Z m 0,1.1455184 h 2.2896927 2.2903642 v 0.315587 0.316262 H 4.1458569 1.8561639 v -0.316262 z m 0,1.144846 h 1.4409622 1.4416338 v 0.316259 0.315586 H 3.2971264 1.8561639 v -0.315586 z"
+     class="ColorScheme-Text" />
+</svg>

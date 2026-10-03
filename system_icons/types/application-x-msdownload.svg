@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40.46875"
+   height="51.226562"
+   version="1.1"
+   id="svg73"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata77">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs29">
+    <style
+       id="current-color-scheme"
+       type="text/css">.ColorScheme-Text {color:#d8dee9} .ColorScheme-Highlight {color:#3b4252}</style>
+  </defs>
+  <path
+     id="path1"
+     style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:currentColor;stroke-width:1.1;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 6.6269533,0 C 2.9727148,0 0,2.9545882 0,6.5976562 V 44.626953 c 0,3.643068 2.9727148,6.59961 6.6269533,6.59961 H 33.839843 c 3.654239,0 6.628907,-2.956542 6.628907,-6.59961 V 6.5976562 C 40.46875,2.9545882 37.494082,0 33.839843,0 Z M 18.050781,16.011719 c 1.78951,-0.02915 3.010817,0.691973 4.15625,1.509766 l -2.091796,7.58789 c -1.103244,-0.784585 -2.284044,-1.525829 -3.970704,-1.539062 -1.11233,-0.0092 -2.433284,0.333319 -4.115235,1.066406 l 2.080078,-7.619141 c 1.586482,-0.692592 2.867701,-0.988369 3.941407,-1.005859 z m 5.253906,2.316407 c 1.828982,1.300654 3.859089,2.331293 8.083985,0.488281 l -2.078125,7.603515 c -4.05061,1.912983 -6.256345,0.835456 -8.083984,-0.472656 z m -7.695312,6.705077 c 1.787982,-0.04591 3.01593,0.644215 4.158203,1.462891 l -2.107422,7.65039 C 15.825791,32.844408 13.823149,31.781275 9.589844,33.628907 l 2.064453,-7.589844 h 0.02929 c 1.581182,-0.687534 2.852991,-0.978272 3.925781,-1.00586 z m 5.269531,2.195313 c 1.833022,1.301722 3.705334,2.256131 8.013672,0.701172 l -2.007812,7.390625 c -4.228597,1.846204 -6.26666,0.793021 -8.097657,-0.517579 z"
+     class="ColorScheme-Text" />
+</svg>

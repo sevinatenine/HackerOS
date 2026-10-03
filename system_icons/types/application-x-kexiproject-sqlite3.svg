@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40.46875"
+   height="51.226562"
+   version="1.1"
+   id="svg73"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata77">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs29">
+    <style
+       id="current-color-scheme"
+       type="text/css">.ColorScheme-Text {color:#d8dee9} .ColorScheme-Highlight {color:#3b4252}</style>
+  </defs>
+  <path
+     id="path1"
+     style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:currentColor;stroke-width:1.1;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 6.6269533,0 C 2.9727148,0 0,2.9545882 0,6.5976562 V 44.626953 c 0,3.643068 2.9727148,6.59961 6.6269533,6.59961 H 33.839843 c 3.654239,0 6.628907,-2.956542 6.628907,-6.59961 V 6.5976562 C 40.46875,2.9545882 37.494082,0 33.839843,0 Z M 20.904297,14.037109 c 4.932473,0 8.93164,1.612295 8.93164,3.603517 v 2.958983 c 0,1.991221 -3.999167,3.605469 -8.93164,3.605469 -4.932704,0 -8.931641,-1.613995 -8.931641,-3.605469 v -2.958983 c 0,-1.991222 3.998937,-3.603517 8.931641,-3.603517 z m 8.925781,7.84961 c 0.01628,0.08884 0.0058,5.162109 0.0058,5.162109 0,1.991228 -3.999166,3.605469 -8.93164,3.605469 -4.932704,0 -8.93164,-1.613738 -8.93164,-3.605469 0,0 -0.01602,-5.05111 0,-5.160156 0.340244,1.866011 4.222679,3.335938 8.93164,3.335938 4.709252,0 8.585807,-1.471341 8.925782,-3.337891 z m -0.002,6.462891 0.0078,5.162109 c 0,1.990968 -3.999166,3.603516 -8.93164,3.603516 -4.932704,0 -8.93164,-1.612045 -8.93164,-3.603516 l -0.002,-5.160157 c 0.341608,1.864218 4.225577,3.335938 8.933594,3.335938 4.709479,0 8.584533,-1.472603 8.923828,-3.33789 z"
+     class="ColorScheme-Text" />
+</svg>

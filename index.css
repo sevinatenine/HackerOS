@@ -1,0 +1,165 @@
+:root {
+    --bg1: #0D1B2A;
+    --bg2: #1B263B;
+    --bg3: #415A77;
+    --bg4: #17385b;
+    --font2: #778DA9;
+    --font: #E0E1DD;
+
+    --font-family: monospace;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+
+    background-color: var(--bg1);
+    color: var(--font);
+}
+
+#topbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0.5em;
+    font-size: 15px;
+
+    height: 2em;
+    background-color: var(--bg2);
+}
+
+#bottombar {
+    height: 2em;
+    padding: 0.3em;
+
+    font-size: 40px;
+    display: flex;
+    gap: 0.4em;
+
+    background-color: var(--bg2);
+}
+
+#bottombar .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1em;
+}
+
+#main {
+    flex: 1;
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
+
+.flexdivider {
+    flex: 1;
+}
+
+.window {
+    background-color: var(--bg4);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+
+.window[hidden] {
+    display: none !important;
+}
+
+.window .header {
+    height: 2em;
+    background-color: var(--bg3);
+    flex-shrink: 0;
+    padding: 0.5em;
+    display: flex;
+    gap: 0.5em;
+}
+
+.window .header .buttons {
+    display: flex;
+    gap: 0.25em;
+    align-items: center;
+}
+
+.window .header .buttons img:hover {
+    cursor: pointer;
+}
+
+.window .content {
+    flex: 1;
+    min-height: 0;
+    padding: 1em;
+}
+
+.resize-handle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 14px;
+    height: 14px;
+    cursor: nwse-resize;
+}
+
+body {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input, textarea, [contenteditable="true"] {
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+input, button {
+    background-color: var(--font2);
+    border: 1px solid gray;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid white;
+}
+
+.icon-desktop span {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.icon-desktop {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: 0.5em;
+}
+
+.window .content {
+    overflow: scroll;
+}
+
+th {
+    text-align: left;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: var(--font);
+    text-decoration: underline;
+}
