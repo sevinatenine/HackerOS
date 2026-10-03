@@ -28,7 +28,7 @@ function createWindow(id, x, y, width, height, hidden) {
     buttons.className = "buttons";
 
     var close = document.createElement("img");
-    close.src = "./icons/emblems/scalable/emblem-error.svg";
+    close.src = "./icons/emblems/scalable/emblem-dropbox-unsyncable.svg";
     close.style.height = "1em";
 
     close.addEventListener("click", () => {
@@ -36,7 +36,7 @@ function createWindow(id, x, y, width, height, hidden) {
     })
     
     var minimize = document.createElement("img");
-    minimize.src = "./icons/emblems/scalable/emblem-remove.svg";
+    minimize.src = "./icons/emblems/scalable/emblem-dropbox-selsync.svg";
     minimize.style.height = "1em";
 
     minimize.addEventListener("click", () => {
