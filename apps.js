@@ -239,6 +239,7 @@ async function prompt(q) {
         overlay.style.alignItems = "center";
         overlay.style.justifyContent = "center";
         overlay.style.zIndex = "9999";
+        overlay.dataset.modal = "true";
 
         var box = document.createElement("div");
         box.style.background = "var(--bg1)";
@@ -324,6 +325,7 @@ async function alert(q, cancelButton = true) {
         overlay.style.alignItems = "center";
         overlay.style.justifyContent = "center";
         overlay.style.zIndex = "9999";
+        overlay.dataset.modal = "true";
 
         var box = document.createElement("div");
         box.style.background = "var(--bg1)";
@@ -435,6 +437,7 @@ async function promptFilePath() {
         overlay.style.alignItems = "center";
         overlay.style.justifyContent = "center";
         overlay.style.zIndex = "9999";
+        overlay.dataset.modal = "true";
 
         var box = document.createElement("div");
         box.style.background = "var(--bg1)";
@@ -1057,11 +1060,19 @@ function terminalOpen(app, filePath = null) {
         }
     });
 
-    document.addEventListener('click', () => cmdInput.focus());
+    const refocus = () => {
+        if (document.querySelector("[data-modal]")) return; // a dialog is open
+        cmdInput.focus();
+    };
+    document.addEventListener('click', refocus);
+    app.terminalRefocus = refocus;
 }
 
 function terminalClose(app) {
-
+    if (app.terminalRefocus) {
+        document.removeEventListener('click', app.terminalRefocus);
+        app.terminalRefocus = null;
+    }
 }
 
 function fileBrowserClose(app) {
